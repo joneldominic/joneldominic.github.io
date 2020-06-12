@@ -26,7 +26,8 @@ $(document).ready(() => {
 
 });
 
-$(function () {
+
+$('#home').waitForImages(function () {
     // Remove Preloader
     if ($(".pre-loader").length > 0) {
         $(".pre-loader").delay(500).fadeOut("slow");
