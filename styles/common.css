@@ -216,3 +216,30 @@ h6 {
     }
 }
 
+
+.scroll-top-btn {
+    background: linear-gradient(to right, #c79864, #cc7f39);
+    text-decoration: none;
+    position: fixed;
+    font-size: 20px;
+    bottom: -50px;
+    right: -70px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 999;
+    transition: all .4s ease-in-out;
+}
+
+.scroll-top-btn:hover {
+    background: linear-gradient(to right, #cc7f39, #c79864);
+    color: #fff;
+}
+
+.scroll-top-btn.active {
+    bottom: 30px;
+    right: 30px;
+}

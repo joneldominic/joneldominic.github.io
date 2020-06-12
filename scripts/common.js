@@ -1,10 +1,11 @@
 $(window).resize(() => {
     navbarResoponsiveness();
-    contentSectionResponsiveness();
+    sectionResponsiveness();
 });
 
 $(window).on('resize scroll', () => {
     navBarFixedHandler();
+    scrollTopButtonHandler();
 });
 
 onScrollStopped(window, () => {
@@ -16,7 +17,8 @@ $(document).ready(() => {
     navbarResoponsiveness();
     navBarFixedHandler();
     navGetCurrentSection();
-    contentSectionResponsiveness();
+    sectionResponsiveness();
+    scrollTopButtonHandler();
 
     $("a.nav-link").click(() => {
         $("a.nav-item").removeClass("active");
@@ -71,16 +73,20 @@ function navBarFixedHandler() {
     const navHeight = $("#mainNavigationBar").height() + 15;
     const scrollYOffset = window.pageYOffset;
 
-    if (scrollYOffset > navHeight) {
+    if (scrollYOffset > navHeight || scrollYOffset===0) {
         $("#mainNavigationBar").addClass("fixed-top active-nav");
     } else {
         $("#mainNavigationBar").removeClass("fixed-top active-nav");
     }
 }
 
-function contentSectionResponsiveness() {
-    let height = window.innerHeight - $("#mainNavigationBar").height();
+function sectionResponsiveness() {
+    const windowInnerHeight = window.innerHeight;
+    const mainNavigavtionBarHeight = $("#mainNavigationBar").height();
+
+    let height = windowInnerHeight - mainNavigavtionBarHeight
     $(".content").css("height", `${height}px`);
+
 }
 
 $.fn.isInViewport = function () {
@@ -109,6 +115,14 @@ function navGetCurrentSection() {
 
         const url = window.location.href.substr(0, window.location.href.indexOf('#') < 0 ? window.location.href.length : window.location.href.indexOf('#'));
         const section = activeSectionId !== 'home' ? `#${activeSectionId}` : "";
-        window.history.replaceState("", "About", `${url}${section}`);
+        window.history.replaceState("", "Jonel Dominic Tapang", `${url}${section}`);
+    }
+}
+
+function scrollTopButtonHandler() {
+    if($(document).scrollTop() >= 1000) {
+        $(".scroll-top-btn").addClass("active");
+    } else {
+        $(".scroll-top-btn").removeClass("active");
     }
 }
