@@ -1,0 +1,13 @@
+#mainNavigationBar {
+    /* background-color: #282929; */
+    background: rgb(12,12,14);
+    /* background: linear-gradient(115deg, rgba(12,12,14,1) 0%, rgba(40,41,41,1) 51%, rgba(40,41,41,1) 100%); */
+    background: linear-gradient(115deg, rgba(12,12,14,1) 0%, rgba(40,41,41,1) 51%, rgba(40,41,41,1  ) 100%); 
+
+    
+}
+
+#mainNavigationBar img{
+    border-radius: 3px;
+}
+

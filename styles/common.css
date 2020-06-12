@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section, .overlay, .content {
+    height: 100%;
+}
+
+.active {
+    color: #000000;
+}
+
+
+
+#about {
+    background-color: #282929;
+}
+
+#services {
+    background-color: #2C2D2D;
+}
+
+#story {
+    background-color: #282929;
+}
+
+#portfolio {
+    background-color: #2C2D2D;
+}
+
+#contact {
+    background-color: #282929;
+}
+

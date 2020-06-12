@@ -1,0 +1,11 @@
+#home > .overlay {
+    background: rgb(12,12,14);
+    /* background: linear-gradient(133deg, rgba(12,12,14,1) 0%, rgba(40,41,41,1) 61%, rgba(40,41,41,1) 100%);  */
+    background: linear-gradient(115deg, rgba(12,12,14,0.7) 0%, rgba(40,41,41,0.7) 51%, rgba(40,41,41,0.7) 100%); 
+}
+
+/* #home .content {
+    background: url('../assets/images/portrait.png') top center no-repeat; background-attachment:fixed; 
+    background-size: 100%;
+    /* background-position: cover; 
+} */
