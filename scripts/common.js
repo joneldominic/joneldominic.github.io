@@ -26,14 +26,11 @@ $(document).ready(() => {
 
 });
 
-
-$('#home').waitForImages(function () {
-    // Remove Preloader
+window.addEventListener('load', function () {
     if ($(".pre-loader").length > 0) {
         $(".pre-loader").delay(500).fadeOut("slow");
     }
 });
-
 
 // ***********************************************************
 // Methods 
