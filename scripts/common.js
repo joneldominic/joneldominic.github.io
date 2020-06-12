@@ -1,5 +1,6 @@
 $(window).resize(() => {
     navbarResoponsiveness();
+    contentSectionResponsiveness();
 });
 
 $(window).on('resize scroll', () => {
@@ -15,6 +16,7 @@ $(document).ready(() => {
     navbarResoponsiveness();
     navBarFixedHandler();
     navGetCurrentSection();
+    contentSectionResponsiveness();
 
     $("a.nav-link").click(() => {
         $("a.nav-item").removeClass("active");
@@ -23,6 +25,11 @@ $(document).ready(() => {
         // Collapse navbar on mobile view
         $("#mainNavbarNav").removeClass("show");
     });
+
+
+    // let height = window.innerHeight - $("#mainNavigationBar").height();
+    // $(".content, .section").css("height", `${height}px`);
+
 
 });
 
@@ -69,6 +76,11 @@ function navBarFixedHandler() {
     } else {
         $("#mainNavigationBar").removeClass("fixed-top active-nav");
     }
+}
+
+function contentSectionResponsiveness() {
+    let height = window.innerHeight - $("#mainNavigationBar").height();
+    $(".content").css("height", `${height}px`);
 }
 
 $.fn.isInViewport = function () {
