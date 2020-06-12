@@ -1,0 +1,12 @@
+#about .profile-picture {
+    padding: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+#about .profile-picture img {
+    opacity: .8;
+}
+
+#about .profile-picture img:hover {
+    opacity: 1;
+}
