@@ -31,7 +31,7 @@ $(function () {
     if ($(".pre-loader").length > 0) {
         $(".pre-loader").delay(500).fadeOut("slow");
     }
-}
+});
 
 
 // ***********************************************************
@@ -39,49 +39,49 @@ $(function () {
 // ***********************************************************
 
 function onScrollStopped(domElement, callback, timeout = 200) {
-        domElement.addEventListener('scroll', () => {
-            clearTimeout(callback.timeout);
-            callback.timeout = setTimeout(callback, timeout);
-        });
-    }
+    domElement.addEventListener('scroll', () => {
+        clearTimeout(callback.timeout);
+        callback.timeout = setTimeout(callback, timeout);
+    });
+}
 
 function navbarResoponsiveness() {
-        if (window.matchMedia('(max-width: 768px)').matches) {
-            $("#idToggleBtn").removeClass("collapse");
+    if (window.matchMedia('(max-width: 768px)').matches) {
+        $("#idToggleBtn").removeClass("collapse");
 
-            $("#mainNavbarNav").removeClass("collapse-in");
-            $("#mainNavbarNav").addClass("collapse navbar-collapse");
-            $("#mainNavbarNav > nav").addClass("navbar-nav");
+        $("#mainNavbarNav").removeClass("collapse-in");
+        $("#mainNavbarNav").addClass("collapse navbar-collapse");
+        $("#mainNavbarNav > nav").addClass("navbar-nav");
 
-        } else {
-            $("#idToggleBtn").addClass("collapse");
+    } else {
+        $("#idToggleBtn").addClass("collapse");
 
-            $("#mainNavbarNav").removeClass("collapse navbar-collapse");
-            $("#mainNavbarNav").addClass("collapse-in");
-            $("#mainNavbarNav > nav").removeClass("navbar-nav");
-        }
+        $("#mainNavbarNav").removeClass("collapse navbar-collapse");
+        $("#mainNavbarNav").addClass("collapse-in");
+        $("#mainNavbarNav > nav").removeClass("navbar-nav");
     }
+}
 
 function navBarFixedHandler() {
-        const navHeight = $("#mainNavigationBar").height() + 15;
-        const scrollYOffset = window.pageYOffset;
+    const navHeight = $("#mainNavigationBar").height() + 15;
+    const scrollYOffset = window.pageYOffset;
 
-        if (scrollYOffset > navHeight) {
-            $("#mainNavigationBar").addClass("fixed-top active-nav");
-        } else {
-            $("#mainNavigationBar").removeClass("fixed-top active-nav");
-        }
+    if (scrollYOffset > navHeight) {
+        $("#mainNavigationBar").addClass("fixed-top active-nav");
+    } else {
+        $("#mainNavigationBar").removeClass("fixed-top active-nav");
     }
+}
 
 $.fn.isInViewport = function () {
-        const elementTop = $(this).offset().top;
-        const elementBottom = elementTop + $(this).outerHeight();
+    const elementTop = $(this).offset().top;
+    const elementBottom = elementTop + $(this).outerHeight();
 
-        const viewportTop = $(window).scrollTop();
-        const viewportBottom = viewportTop + $(window).height();
+    const viewportTop = $(window).scrollTop();
+    const viewportBottom = viewportTop + $(window).height();
 
-        return elementBottom > viewportTop && elementTop < viewportBottom;
-    };
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
 
 function navGetCurrentSection() {
     let activeSectionId = "home";
