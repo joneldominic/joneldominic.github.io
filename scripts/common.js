@@ -12,14 +12,15 @@ onScrollStopped(window, () => {
 
 $(document).ready(() => {
 
-    // Remove Preloader
-    if ($(".pre-loader").length > 0) {
-        $(".pre-loader").delay(200).fadeOut("slow");
-    }
-
     navbarResoponsiveness();
     navBarFixedHandler();
     navGetCurrentSection();
+
+    // Remove Preloader
+    if ($(".pre-loader").length > 0) {
+        $(".pre-loader").delay(500).fadeOut("slow");
+    }
+
 
     $("a.nav-link").click(() => {
         $("a.nav-item").removeClass("active");
