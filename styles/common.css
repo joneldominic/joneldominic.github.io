@@ -73,6 +73,7 @@ h6 {
     width: 100%;
     left: 0;
     top: 0;
+    z-index: 999999;
 }
 .sk-fading-circle {
     margin: 50vh auto;
