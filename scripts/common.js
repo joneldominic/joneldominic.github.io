@@ -24,6 +24,8 @@ $(document).ready(() => {
         $("a.nav-item").removeClass("active");
         $(this).addClass("active");
 
+        navGetCurrentSection();
+
         // Collapse navbar on mobile view
         $("#mainNavbarNav").removeClass("show");
     });

@@ -1,5 +1,5 @@
 #home {
-    background: url('../assets/images/portrait.png') center center no-repeat fixed;
+    background: url('../assets/images/portrait.png') 50% 15% no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
