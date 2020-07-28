@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dominic16
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://joneldominic.github.io
+  * I am dominic16 (https://keybase.io/dominic16) on keybase.
+  * I have a public key ASBMlcICVNs8zOyPKDohtAn-83xlddq8xfyznNRe_RzrUQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f26e52982c3ae40fd99f33760bca9887025a0387d912d67167e96e0da7cafa5d0a",
+      "host": "keybase.io",
+      "kid": "01204c95c20254db3cccec8f283a21b409fef37c6575dabcc5fcb39cd45efd1ceb510a",
+      "uid": "0e1f2d5e22668bf455cfd54af90d5119",
+      "username": "dominic16"
+    },
+    "merkle_root": {
+      "ctime": 1595938437,
+      "hash": "3d015666a73e3851d7465e9843a763afb654eacccbfe93179c3d694caa0e2bf220ee6e10cd8bed2a476451207536c50a50d52ef7912692ab1c27338d5f9ab3c6",
+      "hash_meta": "a65fb39ec27d3ea35ccc6f5e4f77c1eab0d08a0016e2887ef82fd96b8ba93f42",
+      "seqno": 17111673
+    },
+    "service": {
+      "entropy": "pxAhT4bVfXK0WTRSJW1oXlnT",
+      "hostname": "joneldominic.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1595938455,
+  "expire_in": 504576000,
+  "prev": "d26f1522f21c26b07e49537c1df037c635e1e36dc448e43159c80ec351dfc2f2",
+  "seqno": 42,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTJXCAlTbPMzsjyg6IbQJ/vN8ZXXavMX8s5zUXv0c61EKp3BheWxvYWTESpcCKsQg0m8VIvIcJrB+SVN8HfA3xjXh423ESOQxWcgOw1HfwvLEIDo596QENP3R2ZK4aOckKXwtSPinaKlafCiFF7Wo4CxBAgHCo3NpZ8RAwE9l6k04xKoMPjpnuZDiJKojvCxD/kgm86SyxXVNlyCX0kF7GTwNT9QOhDHNSb4quIsXpD04nHGDZpVP097HB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILUV5L1HyBZrm27g8zWokbefhg7ze0TUfkp/sGoa7+E5o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dominic16
+
+==================================================================
