@@ -1,3 +1,7 @@
+dominic16
+Jonel Dominic E. Tapang
+Brave 👽
+Cebu City
 ==================================================================
 https://keybase.io/dominic16
 --------------------------------------------------------------------
@@ -20,13 +24,13 @@ To do so, I am signing this object:
       "username": "dominic16"
     },
     "merkle_root": {
-      "ctime": 1595938437,
-      "hash": "3d015666a73e3851d7465e9843a763afb654eacccbfe93179c3d694caa0e2bf220ee6e10cd8bed2a476451207536c50a50d52ef7912692ab1c27338d5f9ab3c6",
-      "hash_meta": "a65fb39ec27d3ea35ccc6f5e4f77c1eab0d08a0016e2887ef82fd96b8ba93f42",
-      "seqno": 17111673
+      "ctime": 1596034328,
+      "hash": "194b82f552d733e34bc18a4eaac8c6b8128d8e3c3ca2f1fcde340a9574aba7eda9e7fc062f836c4f414477c1e5b5d70910a173d504cd06cfa1a2fb6921cffc8a",
+      "hash_meta": "5db1f85baf34e87e07e34b6a5006f3e190b3c40e4c10c25c3ab67381f7bf0c37",
+      "seqno": 17123681
     },
     "service": {
-      "entropy": "pxAhT4bVfXK0WTRSJW1oXlnT",
+      "entropy": "8imabAtjFk+msUiN+8F3ykLr",
       "hostname": "joneldominic.github.io",
       "protocol": "https:"
     },
@@ -37,16 +41,16 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "5.5.1"
   },
-  "ctime": 1595938455,
+  "ctime": 1596034380,
   "expire_in": 504576000,
-  "prev": "d26f1522f21c26b07e49537c1df037c635e1e36dc448e43159c80ec351dfc2f2",
-  "seqno": 42,
+  "prev": "8939deda752425290db1959ff2401d2efba492434e1caad822f64cee5c91efab",
+  "seqno": 44,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTJXCAlTbPMzsjyg6IbQJ/vN8ZXXavMX8s5zUXv0c61EKp3BheWxvYWTESpcCKsQg0m8VIvIcJrB+SVN8HfA3xjXh423ESOQxWcgOw1HfwvLEIDo596QENP3R2ZK4aOckKXwtSPinaKlafCiFF7Wo4CxBAgHCo3NpZ8RAwE9l6k04xKoMPjpnuZDiJKojvCxD/kgm86SyxXVNlyCX0kF7GTwNT9QOhDHNSb4quIsXpD04nHGDZpVP097HB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILUV5L1HyBZrm27g8zWokbefhg7ze0TUfkp/sGoa7+E5o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTJXCAlTbPMzsjyg6IbQJ/vN8ZXXavMX8s5zUXv0c61EKp3BheWxvYWTESpcCLMQgiTne2nUkJSkNsZWf8kAdLvukkkNOHKrYIvZM7lyR76vEIKDj0O5+WBVa8vpDgEpOQ/R4KGMEHd+/EZzLjsxYL/aeAgHCo3NpZ8RAsaK55po+HpFlWrQNpQsc8QOSNNS9HRBln3cjYXhjoQ9QRrXs4re7zbzXoCcuOfSBnmO2k8p48lt/b6TyWIFvD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDmOv+SxF8TKRoKSmc+xBpilipbUb/EGKmQRavx4qUquo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -54,3 +58,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/dominic16
 
 ==================================================================
+
